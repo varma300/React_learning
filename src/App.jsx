@@ -5,6 +5,7 @@ import Welcome from './assets/Components/Class_components'
 import LifecyleA from './assets/Components/LifecyleA'
 import KeysList from './Component/Keys&List/Keys&List'
 import EventHandling from './Component/EventHandling/EventHandling'
+import UseRef from './Component/Useref/UseRef'
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       <Welcome /> */}
       {/* <LifecyleA /> */}
       {/* <KeysList /> */}
-      <EventHandling />
+      {/* <EventHandling /> */}
+      <UseRef />
     </>
   )
 }
