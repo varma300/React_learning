@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import WithOutJSX from './assets/Components/functionComponent'
-import Welcome from './assets/Components/Class_components'
-import LifecyleA from './assets/Components/LifecyleA'
+import WithOutJSX from './Components/functionComponent'
+import Welcome from './Components/Class_components'
+import LifecyleA from './Components/LifecyleA'
 import KeysList from './Component/Keys&List/Keys&List'
 import EventHandling from './Component/EventHandling/EventHandling'
-import UseRef from './Component/Useref/UseRef'
+import UseRef from './Components/hooks/UseRef'
+import UseEffect from './Components/hooks/fetchAPI'
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
       {/* <LifecyleA /> */}
       {/* <KeysList /> */}
       {/* <EventHandling /> */}
-      <UseRef />
+      {/* <UseRef /> */}
+      <UseEffect />
     </>
   )
 }
