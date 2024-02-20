@@ -8,6 +8,7 @@ import EventHandling from './Component/EventHandling/EventHandling'
 import UseRef from './Components/hooks/UseRef'
 import UseEffect from './Components/hooks/fetchAPI'
 import Subscription from './Components/hooks/Subscription'
+import ManullyDOMManupulation from './Components/hooks/ManullyDOMManupulation'
 
 
 function App() {
@@ -22,7 +23,9 @@ function App() {
       {/* <EventHandling /> */}
       {/* <UseRef /> */}
       {/* <UseEffect /> */}
-      <Subscription />
+      {/* <Subscription /> */}
+      <ManullyDOMManupulation />
+
     </>
   )
 }
