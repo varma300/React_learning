@@ -2,4 +2,11 @@
     display: flex;
     gap:1rem;
     list-style-type: none;
+    flex-wrap: wrap;
+
+}
+
+img{
+    height: 6vh;
+    width: 6vw;
 }

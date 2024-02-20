@@ -7,6 +7,7 @@ import KeysList from './Component/Keys&List/Keys&List'
 import EventHandling from './Component/EventHandling/EventHandling'
 import UseRef from './Components/hooks/UseRef'
 import UseEffect from './Components/hooks/fetchAPI'
+import Subscription from './Components/hooks/Subscription'
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
       {/* <KeysList /> */}
       {/* <EventHandling /> */}
       {/* <UseRef /> */}
-      <UseEffect />
+      {/* <UseEffect /> */}
+      <Subscription />
     </>
   )
 }
